@@ -393,7 +393,6 @@ body {
   row-gap: 1.25rem
 }
 .logo {
-  flex: 0 0 8.4375rem;
   display: flex;
   align-items: center;
   -webkit-column-gap: .625rem;
@@ -1477,6 +1476,11 @@ body {
 }
 .questions__text {
   text-align: center
+}
+@media (min-width:24.0625em) {
+  .logo {
+    flex: 0 0 8.4375rem
+  }
 }
 @media (min-width:24.99875em) {
   .images-why__items {
