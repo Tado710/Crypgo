@@ -260,6 +260,9 @@ body {
   color: #fff;
   transition: all .3s
 }
+.menu__link._navigator-active {
+  color: #99e39e
+}
 .icon-menu {
   display: none
 }
@@ -380,6 +383,14 @@ body {
 }
 .text--grey {
   color: rgba(255,255,255,.6)
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  background-color: rgba(0,5,16,.8)
 }
 .header__container {
   padding-top: .9375rem;
@@ -1610,7 +1621,7 @@ body {
     padding-bottom: 2.5rem
   }
   .page__hero {
-    padding-top: 4.5rem
+    padding-top: 11.25rem
   }
   .page__hero {
     margin-bottom: 2.1875rem
@@ -1877,7 +1888,7 @@ body {
     padding-bottom: 1.25rem
   }
   .page__hero {
-    padding-top: 2.1875rem
+    padding-top: 6.5625rem
   }
   .page__hero {
     margin-bottom: 1.5625rem
@@ -2278,7 +2289,7 @@ body {
     padding-bottom: clamp(1.25rem ,.8104395604rem + 2.1978021978vw ,2.5rem)
   }
   .page__hero {
-    padding-top: clamp(2.1875rem ,1.3743131868rem + 4.0659340659vw ,4.5rem)
+    padding-top: clamp(6.5625rem ,4.9141483516rem + 8.2417582418vw ,11.25rem)
   }
   .page__hero {
     margin-bottom: clamp(1.5625rem ,1.3427197802rem + 1.0989010989vw ,2.1875rem)
